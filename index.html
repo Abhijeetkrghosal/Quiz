@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Abhijeet Quiz App </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+<!--
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<!--<h1> hey learning javascipt</h1>-->
+<!--<p id="out"></p>-->
+    <div class="container">
+        <p class="title beta_version blink">Welcome <img src="images/silly.png" alt=""> to my Quiz Game</p>
+        <h4>COME ON ! Test your knowledge</h4>
+    <div class="col-sm-12 text-center">
+    <div id="first_card">
+<div class="question_card" id="qu_cd">
+    <div id="questions">
+        
+    </div>
+    <div class="row">
+       <div class="options">
+           
+        <div class="col-sm-6"><div class="btn btn-primary" id="opt1"></div></div>
+        <div class="col-sm-6"><div class="btn btn-primary" id="opt2"></div></div>
+        <div class="col-sm-6"><div class="btn btn-primary" id="opt3"></div></div>
+        <div class="col-sm-6"><div class="btn btn-primary" id="opt4"></div></div>
+    </div>
+       </div>
+    
+    <div class="col-sm-12 text-center">
+    <button onclick="checkanswer()" class="next_button">Next</button>
+    <button onclick="goback()" class="next_button">back</button>
+        
+    </div>
+ 
+    
+</div>
+<!--    <button onclick="playagain()">Restart</button>-->
+</div>
+     <div id="second_card">
+            <div id="total_score">
+        
+    </div>
+     </div>
+      </div>
+</div>
+ <script src="json.js"> </script>
+ <script src="script.js"> </script>
+  </body>
+</html>
