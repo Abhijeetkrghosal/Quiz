@@ -1,1 +1,174 @@
+<<<<<<< HEAD
 div#questions{width:75%;height:200px;text-align:center;font-size:2em;margin:auto;background-color:#fff;border-radius:10px;color:#146698;margin-top:30px;padding:50px;box-shadow:-4px 5px 10px 0 #1ba94c}.options{width:50%;margin:auto;margin-top:30px}#opt1,#opt2,#opt3,#opt4{width:200px;height:44px;font-size:18px;border:none;border-radius:0;padding:10px;margin:10px;opacity:.6}button.next_button{background:#1ba94c;color:#fff;width:100px;font-size:20px;margin:20px;padding:5px;border:0 #1ba94c;font-weight:600}.next_button:hover{animation:pulse 1s;font-size:23px}.next_button:active{border:none}body{text-align:center;margin:0;padding:0;color:#cdcbd6;font-family:tahoma,arial,helvetica,sans-serif;font-size:10pt;background:linear-gradient(#3bb5a7,#000000,#000000);background-repeat:no-repeat}html,body{height:100%;overflow-x:hidden}.title{font-size:30px;font-weight:800;line-height:3}h4{color:#fff}#opt1:hover,#opt2:hover,#opt3:hover,#opt4:hover{opacity:1;animation:swing 1s}div#second_card{margin-top:41px;padding:50px}.restart_game{background:#36a598;opacity:1;color:#fff;font-size:20px;border:none;border-radius:3px;padding:10px;position:relative;top:50px}p.game_over{font-size:40px;position:relative;top:-70px;color:#ecc31c}p.total{font-size:50px;font-weight:600;font-family:cursive;color:#fff}@media only screen and (min-width:960px){.options{width:75%}}@media only screen and (max-device-width:480px){.title{font-size:45px}h4{font-size:30px}div#questions{width:100%;height:340px;font-size:35px;line-height:1.5;text-align:justify}.options{width:100%}#opt1,#opt2,#opt3,#opt4{width:100%;height:auto;font-size:30px;padding:20px;margin:20px 0 10px 0;opacity:.8}button.next_button{height:auto;width:100%;font-size:40px;margin:20px 0;padding:15px}p.game_over{font-size:50px}.restart_game{font-size:50px;top:120px;padding:20px}}
+=======
+div#questions {
+    width: 75%;
+    height: 200px;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #146698;
+    margin-top: 30px;
+    padding: 50px;
+    box-shadow: -4px 5px 10px 0 #1ba94c
+}
+
+.options {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px
+}
+
+#opt1,
+#opt2,
+#opt3,
+#opt4 {
+    width: 200px;
+    height: 44px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    margin: 10px;
+    opacity: .6
+}
+
+button.next_button {
+    background: #1ba94c;
+    color: #fff;
+    width: 100px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px;
+    border: 0 #1ba94c;
+    font-weight: 600
+}
+
+.next_button:hover {
+    animation: pulse 1s;
+    font-size: 23px
+}
+
+.next_button:active {
+    border: none
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #cdcbd6;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-size: 10pt;
+    background: linear-gradient(#3bb5a7, #000000, #000000);
+    background-repeat: no-repeat
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 3
+}
+
+h4 {
+    color: #fff
+}
+
+#opt1:hover,
+#opt2:hover,
+#opt3:hover,
+#opt4:hover {
+    opacity: 1;
+    animation: swing 1s
+}
+
+div#second_card {
+    margin-top: 41px;
+    padding: 50px
+}
+
+.restart_game {
+    background: #36a598;
+    opacity: 1;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+    top: 50px
+}
+
+p.game_over {
+    font-size: 40px;
+    position: relative;
+    top: -70px;
+    color: #ecc31c
+}
+
+p.total {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: cursive;
+    color: #fff
+}
+
+@media only screen and (min-width:960px) {
+    .options {
+        width: 75%
+    }
+}
+
+@media only screen and (max-device-width:480px) {
+    .title {
+        font-size: 45px
+    }
+    h4 {
+        font-size: 30px
+    }
+    div#questions {
+        width: 100%;
+        height: 340px;
+        font-size: 35px;
+        line-height: 1.5;
+        text-align: justify
+    }
+    .options {
+        width: 100%
+    }
+    #opt1,
+    #opt2,
+    #opt3,
+    #opt4 {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        padding: 20px;
+        margin: 20px 0 10px 0;
+        opacity: .8
+    }
+    button.next_button {
+        height: auto;
+        width: 100%;
+        font-size: 40px;
+        margin: 20px 0;
+        padding: 15px
+    }
+    p.game_over {
+        font-size: 50px
+    }
+    .restart_game {
+        font-size: 50px;
+        top: 120px;
+        padding: 20px
+    }
+}
+>>>>>>> commitred
